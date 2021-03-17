@@ -10,7 +10,7 @@ resource "aws_security_group" "emr_master" {
     protocol    = "tcp"
     cidr_blocks = [var.ingress_cidr_blocks]
   }
-
+/*
   ingress {
     from_port   = 4040
     to_port     = 4040
@@ -31,7 +31,7 @@ resource "aws_security_group" "emr_master" {
     protocol    = "tcp"
     cidr_blocks = [var.ingress_cidr_blocks]
   }
-
+*/
   egress {
     from_port   = 0
     to_port     = 0
