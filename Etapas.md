@@ -6,7 +6,7 @@ Para o passo a passo siga as etapas abaixo:
 
     ```git clone git@github.com:Miyake-Diogo/iac_cloud_data_eng.git```
 
-2. No arquivo ```variables.tf`` altere os seguintes dados:
+2. No arquivo ```variables.` altere os seguintes dados:
 
 | Variável                    | Valor                                    |  Descrição                                 | 
 | -------------               | -------------                            |  -------------                             |
