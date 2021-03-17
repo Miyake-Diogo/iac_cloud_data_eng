@@ -45,7 +45,8 @@ Nas palavras da própria HashiCorp:
     
     ![alt text](resources/criar_par_de_chaves1.png "criando um par de chaves 1")
     
-    Criar pares de chaves. Coloque um nome e após isso clique em criar. Automaticamente será realizado o download do par de chaves, guarde em um local seguro.  
-    ![alt text](resources/criar_par_de_chaves2.png "criando um par de chaves 2"). Após isso siga as etapas para criação do cluster via terraform.  
+    Criar pares de chaves. Coloque um nome e após isso clique em criar. Automaticamente será realizado o download do par de chaves, guarde em um local seguro.
+    
+    ![alt text](resources/criar_par_de_chaves2.png "criando um par de chaves 2") Após isso siga as etapas para criação do cluster via terraform.  
 
 ## Para subir seu cluster siga os passo a passo nesse [link](Etapas.md)
