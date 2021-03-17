@@ -1,8 +1,3 @@
-resource "aws_key_pair" "terraform_keys" {
-  key_name = "id_rsa" # coloque aqui o nome da chave
-  public_key = "${file("~/.ssh/id_rsa.pub")}" # Coloque aqui o caminho e extensão da chave pública
-}
-
 resource "aws_emr_cluster" "cluster" {
   name = var.name
   release_label = var.release_label
@@ -22,7 +17,7 @@ EOF
 
   ec2_attributes {
     subnet_id =  var.subnet_id
-    key_name = aws_key_pair.terraform_keys.key_name  
+    key_name = var.key_name
     emr_managed_master_security_group = var.emr_master_security_group
     emr_managed_slave_security_group = var.emr_worker_security_group
     instance_profile = var.emr_ec2_instance_profile

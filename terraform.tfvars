@@ -1,9 +1,9 @@
 # Configurações do EMR
-name      = "lunch-learn-spark-cluster"
-region    = "us-west-2"
-subnet_id = "subnet-ed289f95" 
-vpc_id    = "vpc-3f6d4847"
-
+name      = "SEU CLUSTER"
+region    = "SUA REGION"
+subnet_id = "SUA SUBNET ID" 
+vpc_id    = "Sua VPC ID"
+key_name  = "Coloque o nome da chave"
 ingress_cidr_blocks = "0.0.0.0/0"
 release_label       = "emr-6.2.0"
 applications        = ["Hadoop", "Hive", "Spark", "JupyterHub"]

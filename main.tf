@@ -21,7 +21,7 @@ module "emr" {
   release_label = var.release_label
   applications  = var.applications
   subnet_id     = var.subnet_id
-  #key_name                  = var.key_name
+  key_name                  = var.key_name
   master_instance_type      = var.master_instance_type
   master_ebs_size           = var.master_ebs_size
   core_instance_type        = var.core_instance_type

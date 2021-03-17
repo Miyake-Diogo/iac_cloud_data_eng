@@ -1,6 +1,6 @@
 variable "name" {}
 variable "subnet_id" {}
-
+variable "key_name" {}
 variable "release_label" {}
 variable "applications" {
   type = list(string)
