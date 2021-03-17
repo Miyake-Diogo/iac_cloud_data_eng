@@ -19,11 +19,16 @@ Nas palavras da própria HashiCorp:
 - Criar um usuário seu [access key ID e a chave de acesso secreta](https://docs.aws.amazon.com/pt_br/powershell/latest/userguide/pstools-appendix-sign-up.html) com acesso AdministratorAccess. Salve sua chave em lugar seguro.
 
 - Instalar terraform:
+    
     ```brew install terraform```
-    Verificar a instalação
+    
+    Verificar a instalação:
+    
     ```terraform version```
     
-    Resultado esperado: Terraform v0.14.8 (ou versão mais recente)
+    Resultado esperado:
+    
+    Terraform v0.14.8 (ou versão mais recente)
 
 - Suas credenciais AWS configuradas localmente.
 
@@ -36,17 +41,11 @@ Nas palavras da própria HashiCorp:
     
 - Crie um par de chaves na AWS EC2 Console e baixe para acesso via ssh ao cluster.
     
-    Acesse ao [link](https://console.aws.amazon.com/ec2/home?region=us-east-1#KeyPairs:sort=desc:key-pair-id)
-    
-    Vá em pares de chaves.
+    Acesse ao [link](https://console.aws.amazon.com/ec2/home?region=us-east-1#KeyPairs:sort=desc:key-pair-id). Vá em pares de chaves.
     
     ![alt text](resources/criar_par_de_chaves1.png "criando um par de chaves 1")
     
-    Criar pares de chaves.  
-    
-    Coloque um nome e após isso clique em criar. Automaticamente será realizado o download do par de chaves, guarde em um local seguro.  
-    ![alt text](resources/criar_par_de_chaves2.png "criando um par de chaves 2")
-    
-    Após isso siga as etapas para criação do cluster via terraform.  
+    Criar pares de chaves. Coloque um nome e após isso clique em criar. Automaticamente será realizado o download do par de chaves, guarde em um local seguro.  
+    ![alt text](resources/criar_par_de_chaves2.png "criando um par de chaves 2"). Após isso siga as etapas para criação do cluster via terraform.  
 
 ## Para subir seu cluster siga os passo a passo nesse [link](Etapas.md)
